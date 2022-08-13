@@ -1,0 +1,5 @@
+<testsuite failures="0" name="src/test/features/sample.feature" skipped="0" tests="1" time="0.002369">
+  <testcase classname="src.test.features.sample" name="Hello World Scenario" time="0.002369">
+    <system-out>* print 'Hello World' ..................................................... passed</system-out>
+  </testcase>
+</testsuite>

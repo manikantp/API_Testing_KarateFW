@@ -1,24 +1,137 @@
-20:34:05.920 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-20:34:06.063 request:
-1 > GET https://gorest.co.in/public/v2/users/11/posts
+20:22:04.773 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:22:04.815 [print] [
+  {
+    "name": "Manikant",
+    "Organization": "TCS",
+    "City": "Visakhapatnam"
+  },
+  {
+    "name": "Aditya",
+    "Job": "Graphic Designer",
+    "City": "Eluru"
+  }
+]
+
+20:22:04.822 [print] {
+  "name": "Manikant",
+  "Organization": "TCS",
+  "City": "Visakhapatnam"
+}
+
+20:22:04.826 [print] Manikant
+20:22:04.828 [print] {
+  "name": "Aditya",
+  "Job": "Graphic Designer",
+  "City": "Eluru"
+}
+
+20:22:04.832 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:22:04.832 [print] {
+  "widget": {
+    "debug": "on",
+    "window": {
+      "title": "Sample Konfabulator Widget",
+      "name": "main_window",
+      "width": 500,
+      "height": 500
+    },
+    "image": {
+      "src": "Images/Sun.png",
+      "name": "sun1",
+      "hOffset": 250,
+      "vOffset": 250,
+      "alignment": "center"
+    },
+    "text": {
+      "data": "Click Here",
+      "size": 36,
+      "style": "bold",
+      "name": "text1",
+      "hOffset": 250,
+      "vOffset": 100,
+      "alignment": "center",
+      "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+  }
+}
+
+20:22:04.835 [print] {
+  "debug": "on",
+  "window": {
+    "title": "Sample Konfabulator Widget",
+    "name": "main_window",
+    "width": 500,
+    "height": 500
+  },
+  "image": {
+    "src": "Images/Sun.png",
+    "name": "sun1",
+    "hOffset": 250,
+    "vOffset": 250,
+    "alignment": "center"
+  },
+  "text": {
+    "data": "Click Here",
+    "size": 36,
+    "style": "bold",
+    "name": "text1",
+    "hOffset": 250,
+    "vOffset": 100,
+    "alignment": "center",
+    "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+  }
+}
+
+20:22:04.836 [print] Sample Konfabulator Widget
+20:22:04.838 [print] Images/Sun.png
+Iyer","email":"vishwamitra_iyer@jerde.com","gender":"female","status":"active"}]}
+
+20:17:24.876 [print] {
+  "data": [
+    {
+      "gender": "female",
+      "name": "Vishwamitra Iyer",
+      "id": 4003,
+      "email": "vishwamitra_iyer@jerde.com",
+      "status": "active"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 1,
+      "pages": 1,
+      "limit": 10,
+      "links": {
+        "next": null,
+        "current": "https://gorest.co.in/public/v1/users?page=1",
+        "previous": null
+      },
+      "page": 1
+    }
+  }
+}
+
+20:17:24.883 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:17:24.886 request:
+1 > GET https://gorest.co.in/public/v1/users?status=active
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: gorest.co.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_312)
 
-20:34:07.489 response time in milliseconds: 1424.59
+20:17:26.017 response time in milliseconds: 1129.16
 1 < 200
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 73a25763ae60887a-LHR
+1 < CF-RAY: 73b2b9b15b000c05-AMS
 1 < Cache-Control: max-age=0, private, must-revalidate
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 13 Aug 2022 15:04:07 GMT
-1 < ETag: W/"2d24203add3376e53b17cb3d51c19f47"
+1 < Date: Mon, 15 Aug 2022 14:47:26 GMT
+1 < ETag: W/"11886904cc2d3a16ab6e4447ea5c0904"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 1 < Referrer-Policy: strict-origin-when-cross-origin
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q8Pdw8BKMQbUswakKfTmeh4kq5kwniUusQxg01jRqTj7ol9ZJNdEbkTXAEgaRTqhakFj65LawMUTTq7Ghdp5UkU5fVJKdMqH1FA%2BpQ2V9Uyogc1d5rgLES7iL5UpPLI%3D"}],"group":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gApW6sA9zfEccf3HEWYsho1Iemf2mlpjikIsoCeOjFFgA%2FAAna7uwRc4u%2BVbNPIQ3mQ0JYiJNInbV90Fmzf1j7Z4BqQT4dRhLnHX3vgMNOxx9QcaDvrBMiRCMtiArtA%3D"}],"group":"cf-nel","max_age":604800}
 1 < Server: cloudflare
 1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
 1 < Transfer-Encoding: chunked
@@ -26,32 +139,99 @@
 1 < X-Content-Type-Options: nosniff
 1 < X-Download-Options: noopen
 1 < X-Frame-Options: SAMEORIGIN
-1 < X-Links-Current: https://gorest.co.in/public/v2/posts?page=1
-1 < X-Links-Next: 
-1 < X-Links-Previous: 
-1 < X-Pagination-Limit: 10
-1 < X-Pagination-Page: 1
-1 < X-Pagination-Pages: 1
-1 < X-Pagination-Total: 1
 1 < X-Permitted-Cross-Domain-Policies: none
-1 < X-Request-Id: d0363f43-9668-48c8-9dd6-e7bbb657b621
-1 < X-Runtime: 0.005826
+1 < X-Request-Id: c05dd56f-859a-47a1-82f3-f5fa370e9b11
+1 < X-Runtime: 0.007023
 1 < X-XSS-Protection: 0
 1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-[{"id":6,"user_id":11,"title":"Sollers id aut labore ubi stella.","body":"Sortitus rerum vorax. Sub solvo utrum. Officiis thema cattus. Tot alioqui tamquam. Quam tempore trepide. Desino arceo conduco. Capio admiratio combibo. Turba consequatur utrum. Dicta vir cado. Uxor audio tantum. Omnis velit cubicularis. Socius denuncio absque. Neque verbera ago. Laborum quaerat fuga. Suffoco coepi quasi. Amiculum deporto armo."}]
+{"meta":{"pagination":{"total":2052,"pages":206,"page":1,"limit":10,"links":{"previous":null,"current":"https://gorest.co.in/public/v1/users?page=1","next":"https://gorest.co.in/public/v1/users?page=2"}}},"data":[{"id":4003,"name":"Vishwamitra Iyer","email":"vishwamitra_iyer@jerde.com","gender":"female","status":"active"},{"id":4002,"name":"Swapnil Ganaka","email":"swapnil_ganaka@abbott-brakus.info","gender":"female","status":"active"},{"id":4000,"name":"Prof. Saraswati Jain","email":"jain_saraswati_prof@sauer.net","gender":"female","status":"active"},{"id":3994,"name":"Amrita Jha","email":"amrita_jha@towne.io","gender":"female","status":"active"},{"id":3991,"name":"Chitramala Bharadwaj PhD","email":"phd_chitramala_bharadwaj@sauer.org","gender":"male","status":"active"},{"id":3987,"name":"Sukanya Bhattathiri","email":"bhattathiri_sukanya@zemlak.net","gender":"male","status":"active"},{"id":3986,"name":"Anila Iyer","email":"iyer_anila@murphy-gislason.co","gender":"male","status":"active"},{"id":3985,"name":"Amrita Khatri","email":"khatri_amrita@volkman.org","gender":"male","status":"active"},{"id":3981,"name":"Charak Gill","email":"charak_gill@muller.co","gender":"male","status":"active"},{"id":3980,"name":"Harinarayan Pillai DO","email":"pillai_harinarayan_do@berge.org","gender":"female","status":"active"}]}
 
-20:34:07.510 [print] [
-  {
-    "user_id": 11,
-    "id": 6,
-    "title": "Sollers id aut labore ubi stella.",
-    "body": "Sortitus rerum vorax. Sub solvo utrum. Officiis thema cattus. Tot alioqui tamquam. Quam tempore trepide. Desino arceo conduco. Capio admiratio combibo. Turba consequatur utrum. Dicta vir cado. Uxor audio tantum. Omnis velit cubicularis. Socius denuncio absque. Neque verbera ago. Laborum quaerat fuga. Suffoco coepi quasi. Amiculum deporto armo."
+20:17:26.019 [print] {
+  "data": [
+    {
+      "gender": "female",
+      "name": "Vishwamitra Iyer",
+      "id": 4003,
+      "email": "vishwamitra_iyer@jerde.com",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Swapnil Ganaka",
+      "id": 4002,
+      "email": "swapnil_ganaka@abbott-brakus.info",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Prof. Saraswati Jain",
+      "id": 4000,
+      "email": "jain_saraswati_prof@sauer.net",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Amrita Jha",
+      "id": 3994,
+      "email": "amrita_jha@towne.io",
+      "status": "active"
+    },
+    {
+      "gender": "male",
+      "name": "Chitramala Bharadwaj PhD",
+      "id": 3991,
+      "email": "phd_chitramala_bharadwaj@sauer.org",
+      "status": "active"
+    },
+    {
+      "gender": "male",
+      "name": "Sukanya Bhattathiri",
+      "id": 3987,
+      "email": "bhattathiri_sukanya@zemlak.net",
+      "status": "active"
+    },
+    {
+      "gender": "male",
+      "name": "Anila Iyer",
+      "id": 3986,
+      "email": "iyer_anila@murphy-gislason.co",
+      "status": "active"
+    },
+    {
+      "gender": "male",
+      "name": "Amrita Khatri",
+      "id": 3985,
+      "email": "khatri_amrita@volkman.org",
+      "status": "active"
+    },
+    {
+      "gender": "male",
+      "name": "Charak Gill",
+      "id": 3981,
+      "email": "charak_gill@muller.co",
+      "status": "active"
+    },
+    {
+      "gender": "female",
+      "name": "Harinarayan Pillai DO",
+      "id": 3980,
+      "email": "pillai_harinarayan_do@berge.org",
+      "status": "active"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 2052,
+      "pages": 206,
+      "limit": 10,
+      "links": {
+        "next": "https://gorest.co.in/public/v1/users?page=2",
+        "current": "https://gorest.co.in/public/v1/users?page=1",
+        "previous": null
+      },
+      "page": 1
+    }
   }
-]
-
-20:34:07.521 [print] Sollers id aut labore ubi stella.
-": 6,
-  "title": "Sollers id aut labore ubi stella.",
-  "body": "Sortitus rerum vorax. Sub solvo utrum. Officiis thema cattus. Tot alioqui tamquam. Quam tempore trepide. Desino arceo conduco. Capio admiratio combibo. Turba consequatur utrum. Dicta vir cado. Uxor audio tantum. Omnis velit cubicularis. Socius denuncio absque. Neque verbera ago. Laborum quaerat fuga. Suffoco coepi quasi. Amiculum deporto armo."
 }
 
+20:17:26.035 [print] 10

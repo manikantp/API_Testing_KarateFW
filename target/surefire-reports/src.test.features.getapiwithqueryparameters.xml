@@ -1,0 +1,15 @@
+<testsuite failures="1" name="src/test/features/getapiwithqueryparameters.feature" skipped="0" tests="1" time="0.024931">
+  <testcase classname="src.test.features.getapiwithqueryparameters" name="Get all active users" time="0.024931">
+    <failure message="getapiwithqueryparameters.feature:6 - no step-definition method match found for: Method GET">* def query = {status:active} ............................................. passed
+Given url 'https://gorest.co.in/public/v2/users' .......................... passed
+And params query .......................................................... passed
+When Method GET ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: getapiwithqueryparameters.feature:6 - no step-definition method match found for: Method GET
+	at ✽.When Method GET (getapiwithqueryparameters.feature:6)
+
+Then Status 200 ........................................................... skipped
+* print response .......................................................... skipped</failure>
+  </testcase>
+</testsuite>

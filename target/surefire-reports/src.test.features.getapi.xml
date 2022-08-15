@@ -1,6 +1,6 @@
-<testsuite failures="0" name="src/test/features/getapi.feature" skipped="0" tests="1" time="1.593556">
-  <testcase classname="src.test.features.getapi" name="get user details and posts" time="1.593556">
-    <system-out>Given url 'https://gorest.co.in/public/v2/users/11/posts' ................. passed
+<testsuite failures="0" name="src/test/features/getapi.feature" skipped="0" tests="1" time="1.636417">
+  <testcase classname="src.test.features.getapi" name="get user details and posts" time="1.636417">
+    <system-out>Given url 'https://gorest.co.in/public/v1/users/11/posts' ................. passed
 When method GET ........................................................... passed
 Then status 200 ........................................................... passed
 * print response .......................................................... passed

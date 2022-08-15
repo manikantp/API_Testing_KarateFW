@@ -1,9 +1,21 @@
-<testsuite failures="0" name="src/test/features/json.feature" skipped="0" tests="1" time="0.041003">
-  <testcase classname="src.test.features.json" name="JSON reader parser" time="0.041003">
+<testsuite failures="0" name="src/test/features/json.feature" skipped="0" tests="2" time="0.043048">
+  <testcase classname="src.test.features.json" name="JSON reader parser" time="0.03722">
     <system-out>* def jsonObject = ........................................................ passed
 * print jsonObject ........................................................ passed
 * print jsonObject[0] ..................................................... passed
 * print jsonObject[0].name ................................................ passed
 * print jsonObject[1] ..................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.features.json" name="JSON reader parser 2" time="0.005828">
+    <system-out>* def jsonObject = ........................................................ passed
+* print jsonObject ........................................................ passed
+* print jsonObject[0] ..................................................... passed
+* print jsonObject[0].name ................................................ passed
+* print jsonObject[1] ..................................................... passed
+* def jsonObjectComplex = ................................................. passed
+* print jsonObjectComplex ................................................. passed
+* print jsonObjectComplex.widget .......................................... passed
+* print jsonObjectComplex.widget.window.title ............................. passed
+* print jsonObjectComplex.widget.image.src ................................ passed</system-out>
   </testcase>
 </testsuite>

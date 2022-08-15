@@ -1,0 +1,27 @@
+<testsuite failures="0" name="src/test/features/getapiwithqueryparameter.feature" skipped="0" tests="2" time="2.716089">
+  <testcase classname="src.test.features.getapiwithqueryparameter" name="Get all active users" time="1.565707">
+    <system-out>* def query = {status:'active',gender : 'female', id:4003} ................ passed
+Given url 'https://gorest.co.in/public/v1/users' .......................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.features.getapiwithqueryparameter" name="Get all active users" time="1.150382">
+    <system-out>* def query = {status:'active',gender : 'female', id:4003} ................ passed
+Given url 'https://gorest.co.in/public/v1/users' .......................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def query = {status:'active'} ........................................... passed
+Given url 'https://gorest.co.in/public/v1/users' .......................... passed
+And params query .......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def jsonResponse =  response ............................................ passed
+* print jsonResponse ...................................................... passed
+* def userCount = jsonResponse.data.length ................................ passed
+* print userCount ......................................................... passed</system-out>
+  </testcase>
+</testsuite>
